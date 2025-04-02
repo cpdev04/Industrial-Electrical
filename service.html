@@ -37,7 +37,9 @@
 	============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
 
 
     <!--==============================
@@ -66,8 +68,15 @@
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
+    <div class="popup-search-box">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
 
-    <!--==============================
+   <!--==============================
     Mobile Menu
   ============================== -->
   <div class="th-menu-wrapper">
@@ -87,6 +96,9 @@
                 </li>
                 <li>
                     <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="project.html">Gallery</a>
                 </li>
                 <li>
                     <a href="shop.html">Shop</a>
@@ -116,7 +128,7 @@ Header Area
                             </li>
                             <li class="d-none d-xl-inline-block"><i
                                     class="fa-sharp fa-regular  fa-location-dot"></i>
-                                <span>138 MacArthur Ave, United States</span>
+                                <span>63/A, Zone D, Sector A,Mancheswar Industrial Estate, Bhubaneswar</span>
                             </li>
                             <li><i class="fa-regular  fa-envelope"></i><a
                                     href="mailto:help24/7info@kotar.com">help24/7info@kotar.com</a>
@@ -162,6 +174,9 @@ Header Area
                                     <a href="team.html">Team</a>
                                 </li>
                                 <li>
+                                    <a href="project.html">Gallery</a>
+                                </li>
+                                <li>
                                     <a href="shop.html">Shop</a>
                                 </li>
                                 <li>
@@ -181,7 +196,7 @@ Header Area
                             <button type="button" class="icon-btn searchBoxToggler"><i
                                     class="far fa-search"></i></button>
                         
-                            <a href="contact.html" class="th-btn th-icon">Book An Appointment<i
+                            <a href="contact.html#book" class="th-btn th-icon">Book An Appointment<i
                                     class="fa-regular fa-arrow-right ms-2"></i></a>
 
                         </div>
@@ -191,6 +206,8 @@ Header Area
         </div>
     </div>
 </header>
+
+
     <!--==============================
     Breadcumb
 ============================== -->
@@ -216,16 +233,21 @@ Servce Area
                 </div>
             </div>
             <div class="nav nav-tabs service-tabs style2" id="nav-tab" role="tablist">
-                <button class="nav-link th-btn active" id="nav-step1-tab" data-bs-toggle="tab" data-bs-target="#nav-step1" type="button"><img src="assets/img/icon/ser_icon_1.svg" alt="">Commercial</button>
-                <button class="nav-link th-btn" id="nav-step2-tab" data-bs-toggle="tab" data-bs-target="#nav-step2" type="button"><img src="assets/img/icon/ser_icon_2.svg" alt="">Residential</button>
-                <button class="nav-link th-btn" id="nav-step3-tab" data-bs-toggle="tab" data-bs-target="#nav-step3" type="button"><img src="assets/img/icon/ser_icon_3.svg" alt="">Industrial</button>
+                <button class="nav-link th-btn active" id="nav-step1-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-step1" type="button"><img src="assets/img/icon/ser_icon_1.svg"
+                        alt="">Commercial</button>
+                <button class="nav-link th-btn" id="nav-step2-tab" data-bs-toggle="tab" data-bs-target="#nav-step2"
+                    type="button"><img src="assets/img/icon/ser_icon_2.svg" alt="">Residential</button>
+                <button class="nav-link th-btn" id="nav-step3-tab" data-bs-toggle="tab" data-bs-target="#nav-step3"
+                    type="button"><img src="assets/img/icon/ser_icon_3.svg" alt="">Industrial</button>
             </div>
 
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade active show" id="nav-step1" role="tabpanel">
                     <div class="row gy-4">
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_1.svg" alt="icon">
@@ -233,13 +255,15 @@ Servce Area
                                     <div class="service-box_number">01</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Building Construction</a></h3>
-                                <p class="service-box_text">Certainly, I can provide some general details about the construction industry. If you have a specific aspect.</p>
+                                <p class="service-box_text">Certainly, I can provide some general details about the
+                                    construction industry. If you have a specific aspect.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_2.svg" alt="icon">
@@ -247,13 +271,15 @@ Servce Area
                                     <div class="service-box_number">02</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Interior Designing</a></h3>
-                                <p class="service-box_text">Construction services also encompass renovating and existing structures to update them change layout.</p>
+                                <p class="service-box_text">Construction services also encompass renovating and existing
+                                    structures to update them change layout.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_3.svg" alt="icon">
@@ -261,13 +287,15 @@ Servce Area
                                     <div class="service-box_number">03</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">General Contracting</a></h3>
-                                <p class="service-box_text">This includes building homes, apartments, and housing units. It can involve single-family homes and more.</p>
+                                <p class="service-box_text">This includes building homes, apartments, and housing units.
+                                    It can involve single-family homes and more.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_4.svg" alt="icon">
@@ -275,13 +303,15 @@ Servce Area
                                     <div class="service-box_number">04</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Architecture Design</a></h3>
-                                <p class="service-box_text">Architectural wonders await firms offer project Our management services. Along with design architecture firms</p>
+                                <p class="service-box_text">Architectural wonders await firms offer project Our
+                                    management services. Along with design architecture firms</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_5.svg" alt="icon">
@@ -289,13 +319,15 @@ Servce Area
                                     <div class="service-box_number">05</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">House Renovation</a></h3>
-                                <p class="service-box_text">Where ideas take shape architecture often offer project in Our management services used in and around a home</p>
+                                <p class="service-box_text">Where ideas take shape architecture often offer project in
+                                    Our management services used in and around a home</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_6.svg" alt="icon">
@@ -303,7 +335,8 @@ Servce Area
                                     <div class="service-box_number">06</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Material Supply</a></h3>
-                                <p class="service-box_text">Material supply can refer to the process of providing and delivering various materials needed for a project</p>
+                                <p class="service-box_text">Material supply can refer to the process of providing and
+                                    delivering various materials needed for a project</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -313,7 +346,8 @@ Servce Area
                 <div class="tab-pane fade" id="nav-step2" role="tabpanel">
                     <div class="row gy-4">
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_4.svg" alt="icon">
@@ -321,13 +355,15 @@ Servce Area
                                     <div class="service-box_number">01</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Material Supply</a></h3>
-                                <p class="service-box_text">Where ideas take shape architecture often offer project in Our management services used in and around a home</p>
+                                <p class="service-box_text">Where ideas take shape architecture often offer project in
+                                    Our management services used in and around a home</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_5.svg" alt="icon">
@@ -335,13 +371,15 @@ Servce Area
                                     <div class="service-box_number">02</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Building Construction</a></h3>
-                                <p class="service-box_text">Material supply can refer to the process of providing and delivering various materials needed for a project</p>
+                                <p class="service-box_text">Material supply can refer to the process of providing and
+                                    delivering various materials needed for a project</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_6.svg" alt="icon">
@@ -349,13 +387,15 @@ Servce Area
                                     <div class="service-box_number">03</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Interior Designing</a></h3>
-                                <p class="service-box_text">Certainly, I can provide some general details about the construction industry. If you have a specific aspect.</p>
+                                <p class="service-box_text">Certainly, I can provide some general details about the
+                                    construction industry. If you have a specific aspect.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_1.svg" alt="icon">
@@ -363,13 +403,15 @@ Servce Area
                                     <div class="service-box_number">04</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">General Contracting</a></h3>
-                                <p class="service-box_text">Material supply can refer to the process of providing and delivering various materials needed for a project</p>
+                                <p class="service-box_text">Material supply can refer to the process of providing and
+                                    delivering various materials needed for a project</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_2.svg" alt="icon">
@@ -377,13 +419,15 @@ Servce Area
                                     <div class="service-box_number">05</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Architecture Design</a></h3>
-                                <p class="service-box_text">This includes building homes, apartments, and housing units. It can involve single-family homes and more.</p>
+                                <p class="service-box_text">This includes building homes, apartments, and housing units.
+                                    It can involve single-family homes and more.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_3.svg" alt="icon">
@@ -391,7 +435,8 @@ Servce Area
                                     <div class="service-box_number">06</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">House Renovation</a></h3>
-                                <p class="service-box_text">Architectural wonders await firms offer project Our management services. Along with design architecture firms</p>
+                                <p class="service-box_text">Architectural wonders await firms offer project Our
+                                    management services. Along with design architecture firms</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -401,7 +446,8 @@ Servce Area
                 <div class="tab-pane fade" id="nav-step3" role="tabpanel">
                     <div class="row gy-4">
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_4.svg" alt="icon">
@@ -409,13 +455,15 @@ Servce Area
                                     <div class="service-box_number">01</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Material Supply</a></h3>
-                                <p class="service-box_text">Where ideas take shape architecture often offer project in Our management services used in and around a home</p>
+                                <p class="service-box_text">Where ideas take shape architecture often offer project in
+                                    Our management services used in and around a home</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_5.svg" alt="icon">
@@ -423,13 +471,15 @@ Servce Area
                                     <div class="service-box_number">02</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Building Construction</a></h3>
-                                <p class="service-box_text">Material supply can refer to the process of providing and delivering various materials needed for a project</p>
+                                <p class="service-box_text">Material supply can refer to the process of providing and
+                                    delivering various materials needed for a project</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_6.svg" alt="icon">
@@ -437,13 +487,15 @@ Servce Area
                                     <div class="service-box_number">03</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Interior Designing</a></h3>
-                                <p class="service-box_text">Certainly, I can provide some general details about the construction industry. If you have a specific aspect.</p>
+                                <p class="service-box_text">Certainly, I can provide some general details about the
+                                    construction industry. If you have a specific aspect.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_1.svg" alt="icon">
@@ -451,13 +503,15 @@ Servce Area
                                     <div class="service-box_number">04</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">General Contracting</a></h3>
-                                <p class="service-box_text">Material supply can refer to the process of providing and delivering various materials needed for a project</p>
+                                <p class="service-box_text">Material supply can refer to the process of providing and
+                                    delivering various materials needed for a project</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_2.svg" alt="icon">
@@ -465,13 +519,15 @@ Servce Area
                                     <div class="service-box_number">05</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">Architecture Design</a></h3>
-                                <p class="service-box_text">This includes building homes, apartments, and housing units. It can involve single-family homes and more.</p>
+                                <p class="service-box_text">This includes building homes, apartments, and housing units.
+                                    It can involve single-family homes and more.</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
 
                         <div class="col-xl-4 col-md-6">
-                            <div class="service-box style2" data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
+                            <div class="service-box style2"
+                                data-bg-src="https://html.themeholy.com/kotar/demo/assets/img/bg/shape_bg_1.png">
                                 <div class="service-content">
                                     <div class="service-box_icon">
                                         <img src="assets/img/icon/service_1_3.svg" alt="icon">
@@ -479,7 +535,8 @@ Servce Area
                                     <div class="service-box_number">06</div>
                                 </div>
                                 <h3 class="box-title"><a href="#">House Renovation</a></h3>
-                                <p class="service-box_text">Architectural wonders await firms offer project Our management services. Along with design architecture firms</p>
+                                <p class="service-box_text">Architectural wonders await firms offer project Our
+                                    management services. Along with design architecture firms</p>
                                 <a class="line-btn" href="#">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -492,99 +549,107 @@ Servce Area
     </section><!--==============================
 Cta Area  
 ==============================-->
-    
-  
- 
+
+
+
     <!--==============================
 	Footer Area
 ==============================-->
-<footer class="footer-wrapper bg-title footer-layout3">
-    <div class="container">
-        <div class="widget-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                     <a href="home-company.html"><img src="assets/img/banners/logo.jpg" width="170px"></a>
+    <footer class="footer-wrapper bg-title footer-layout3">
+        <div class="container">
+            <div class="widget-area">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="widget footer-widget">
+                                <div class="th-widget-about">
+                                    <div class="about-logo">
+                                        <a href="home-company.html"><img src="assets/img/banners/footerlogo.png"
+                                                width="170px"></a>
+                                    </div>
+                                    <p class="about-text">Construction services offer tailored solutions to meet the
+                                        unique needs and specifications of each project.</p>
+                                    <div class="th-social style2">
+                                        <h3 class="widget_title">Connect With us</h3>
+                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                                    </div>
                                 </div>
-                                <p class="about-text">Construction services offer tailored solutions to meet the unique needs and specifications of each project.</p>
-                                <div class="th-social style2">
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">Useful Links</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="project.html">Our Gallery</a></li>
+                                        <li><a href="service.html">Our Services</a></li>
+                                        <li><a href="team.html"> Our Team</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">Our Services</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="service.html">Renovation</a></li>
+                                        <li><a href="service.html">Construction</a></li>
+                                        <li><a href="service.html">Architectural</a></li>
+                                        <li><a href="service.html">Development</a></li>
+                                        <li><a href="service.html">Building</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">Quick Info</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="about.html">Our Story</a></li>
+                                        <li><a href="contact.html">Appointment</a></li>
+                                        <li><a href="contact.html">Terms & Condition</a></li>
+                                        <li><a href="contact.html">Get In Touch</a></li>
+                                        <li><a href="contact.html">Project Showcase</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget footer-widget">
+                                <h3 class="widget_title">Contact Us</h3>
+                                <div class="th-widget-about style2">
+                                    <h4 class="footer-info-title">Address Location</h4>
+                                    <p class="footer-info w-custom"><i class="fas fa-map-marker-alt"></i>
+                                        63/A, Zone D, Sector A,Mancheswar Industrial Estate, Bhubaneswar
+                                    </p>
+                                    <h4 class="footer-info-title">Contact Number</h4>
+                                    <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i>
+                                        <span><a class="text-inherit" href="tel:+19524357106">+1 952-435-7106</a>
+                                            <a class="text-inherit"
+                                                href="mailto:info@kotar.com">info@kotar.com</a></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Links</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="project.html">Our Gallery</a></li>
-                                    <li><a href="service.html">Our Services</a></li>
-                                    <li><a href="team.html"> Our Team</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Our Services</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="service.html">Renovation</a></li>
-                                    <li><a href="service.html">Construction</a></li>
-                                    <li><a href="service.html">Architectural</a></li>
-                                    <li><a href="service.html">Development</a></li>
-                                    <li><a href="service.html">Building</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Quick Info</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">Our Story</a></li>
-                                    <li><a href="contact.html">Appointment</a></li>
-                                    <li><a href="contact.html">Terms & Condition</a></li>
-                                    <li><a href="contact.html">Get In Touch</a></li>
-                                    <li><a href="contact.html">Project Showcase</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Contact Us</h3>
-                            <div class="th-widget-about style2">
-                                <h4 class="footer-info-title">Address Location</h4>
-                                <p class="footer-info"><i class="fas fa-map-marker-alt"></i>138 MacArthur Ave 2 United State.</p>
-                                <h4 class="footer-info-title">Contact Number</h4>
-                                <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i>
-                                    <span><a class="text-inherit" href="tel:+19524357106">+1 952-435-7106</a>
-                                        <a class="text-inherit" href="mailto:info@kotar.com">info@kotar.com</a></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
 
-    </div>
-    <div class="copyright-wrap text-center">
-        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="home-company.html">Industrial Electrical</a>. All Rights Reserved.</p>
-    </div>
-</footer>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright-wrap text-center">
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a
+                    href="home-company.html">Industrial Electrical</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
 
     <!--********************************
 			Code End  Here 
@@ -593,7 +658,8 @@ Cta Area
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg>
     </div>

@@ -7286,6 +7286,9 @@ ol.wp-block-rss {
 
 /* ------------------------------ Header 3  End ---------------------------------- */
 /*------------------- 4.3. Footer  -------------------*/
+.w-custom{
+  width: max-content;
+}
 .footer-wrapper {
   --border-color: rgba(255, 255, 255, 0.3);
   --body-color: #788094;

@@ -37,7 +37,9 @@
 	============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
 
 
     <!--==============================
@@ -58,10 +60,6 @@
 
 <body>
 
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  	<![endif]-->
-
 
     <!--********************************
    		Code Start From Here 
@@ -69,8 +67,15 @@
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
+    <div class="popup-search-box">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
 
-     <!--==============================
+   <!--==============================
     Mobile Menu
   ============================== -->
   <div class="th-menu-wrapper">
@@ -90,6 +95,9 @@
                 </li>
                 <li>
                     <a href="team.html">Team</a>
+                </li>
+                <li>
+                    <a href="project.html">Gallery</a>
                 </li>
                 <li>
                     <a href="shop.html">Shop</a>
@@ -119,7 +127,7 @@ Header Area
                             </li>
                             <li class="d-none d-xl-inline-block"><i
                                     class="fa-sharp fa-regular  fa-location-dot"></i>
-                                <span>138 MacArthur Ave, United States</span>
+                                <span>63/A, Zone D, Sector A,Mancheswar Industrial Estate, Bhubaneswar</span>
                             </li>
                             <li><i class="fa-regular  fa-envelope"></i><a
                                     href="mailto:help24/7info@kotar.com">help24/7info@kotar.com</a>
@@ -165,6 +173,9 @@ Header Area
                                     <a href="team.html">Team</a>
                                 </li>
                                 <li>
+                                    <a href="project.html">Gallery</a>
+                                </li>
+                                <li>
                                     <a href="shop.html">Shop</a>
                                 </li>
                                 <li>
@@ -184,7 +195,7 @@ Header Area
                             <button type="button" class="icon-btn searchBoxToggler"><i
                                     class="far fa-search"></i></button>
                         
-                            <a href="contact.html" class="th-btn th-icon">Book An Appointment<i
+                            <a href="contact.html#book" class="th-btn th-icon">Book An Appointment<i
                                     class="fa-regular fa-arrow-right ms-2"></i></a>
 
                         </div>
@@ -246,13 +257,18 @@ Contact Area
                 </div>
                 <div class="col-xl-8 col-lg-6">
                     <div class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d455242.2855872719!2d85.291480665625!3d20.3119606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190b8c5e07cad7%3A0x52479ccfaf539a0d!2sINDUSTRIAL%20ELECTRICAL!5e1!3m2!1sen!2sin!4v1743525695562!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d455242.2855872719!2d85.291480665625!3d20.3119606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190b8c5e07cad7%3A0x52479ccfaf539a0d!2sINDUSTRIAL%20ELECTRICAL!5e1!3m2!1sen!2sin!4v1743525695562!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy"></iframe>
 
                     </div>
                 </div>
+                <span id="book"></span>
             </div>
         </div>
-    </div><!--==============================
+    </div>
+    
+    <!--==============================
 Contact Area  
 ==============================-->
     <div class="space-bottom overflow-hidden">
@@ -267,15 +283,18 @@ Contact Area
                         <form action="mail.php" method="POST" class="contact-form2 style2 ajax-contact">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="Your Name">
                                     <i class="fal fa-user"></i>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Email Address">
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number">
+                                    <input type="tel" class="form-control" name="number" id="number"
+                                        placeholder="Phone Number">
                                     <i class="fal fa-phone"></i>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -288,11 +307,13 @@ Contact Area
                                     </select>
                                 </div>
                                 <div class="form-group col-12">
-                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control"
+                                        placeholder="Your Message"></textarea>
                                     <i class="fal fa-pencil"></i>
                                 </div>
                                 <div class="form-btn col-12">
-                                    <button class="th-btn th-radius2">Send Message<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                                    <button class="th-btn th-radius2">Send Message<i
+                                            class="fa-regular fa-arrow-right ms-2"></i></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
@@ -309,93 +330,100 @@ Contact Area
     </div><!--==============================
 	Footer Area
 ==============================-->
-<footer class="footer-wrapper bg-title footer-layout3">
-    <div class="container">
-        <div class="widget-area">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo">
-                                     <a href="home-company.html"><img src="assets/img/banners/footerlogo.png" width="170px"></a>
+    <footer class="footer-wrapper bg-title footer-layout3">
+        <div class="container">
+            <div class="widget-area">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="widget footer-widget">
+                                <div class="th-widget-about">
+                                    <div class="about-logo">
+                                        <a href="home-company.html"><img src="assets/img/banners/footerlogo.png"
+                                                width="170px"></a>
+                                    </div>
+                                    <p class="about-text">Construction services offer tailored solutions to meet the
+                                        unique needs and specifications of each project.</p>
+                                    <div class="th-social style2">
+                                        <h3 class="widget_title">Connect With us</h3>
+                                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                                    </div>
                                 </div>
-                                <p class="about-text">Construction services offer tailored solutions to meet the unique needs and specifications of each project.</p>
-                                <div class="th-social style2">
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">Useful Links</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="project.html">Our Gallery</a></li>
+                                        <li><a href="service.html">Our Services</a></li>
+                                        <li><a href="team.html"> Our Team</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">Our Services</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="service.html">Renovation</a></li>
+                                        <li><a href="service.html">Construction</a></li>
+                                        <li><a href="service.html">Architectural</a></li>
+                                        <li><a href="service.html">Development</a></li>
+                                        <li><a href="service.html">Building</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <h3 class="widget_title">Quick Info</h3>
+                                <div class="menu-all-pages-container">
+                                    <ul class="menu">
+                                        <li><a href="about.html">Our Story</a></li>
+                                        <li><a href="contact.html">Appointment</a></li>
+                                        <li><a href="contact.html">Terms &amp; Condition</a></li>
+                                        <li><a href="contact.html">Get In Touch</a></li>
+                                        <li><a href="contact.html">Project Showcase</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-auto">
+                            <div class="widget footer-widget">
+                                <h3 class="widget_title">Contact Us</h3>
+                                <div class="th-widget-about style2">
+                                    <h4 class="footer-info-title">Address Location</h4>
+                                    <p class="footer-info w-custom"><i class="fas fa-map-marker-alt"></i>
+                                        63/A, Zone D, Sector A,Mancheswar Industrial Estate, Bhubaneswar
+                                    </p>
+                                    <h4 class="footer-info-title">Contact Number</h4>
+                                    <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i>
+                                        <span><a class="text-inherit" href="tel:+19524357106">+1 952-435-7106</a>
+                                            <a class="text-inherit"
+                                                href="mailto:info@kotar.com">info@kotar.com</a></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Useful Links</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="project.html">Our Gallery</a></li>
-                                    <li><a href="service.html">Our Services</a></li>
-                                    <li><a href="team.html"> Our Team</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Our Services</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="service.html">Renovation</a></li>
-                                    <li><a href="service.html">Construction</a></li>
-                                    <li><a href="service.html">Architectural</a></li>
-                                    <li><a href="service.html">Development</a></li>
-                                    <li><a href="service.html">Building</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Quick Info</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="about.html">Our Story</a></li>
-                                    <li><a href="contact.html">Appointment</a></li>
-                                    <li><a href="contact.html">Terms &amp; Condition</a></li>
-                                    <li><a href="contact.html">Get In Touch</a></li>
-                                    <li><a href="contact.html">Project Showcase</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Contact Us</h3>
-                            <div class="th-widget-about style2">
-                                <h4 class="footer-info-title">Address Location</h4>
-                                <p class="footer-info"><i class="fas fa-map-marker-alt"></i>138 MacArthur Ave 2 United State.</p>
-                                <h4 class="footer-info-title">Contact Number</h4>
-                                <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i>
-                                    <span><a class="text-inherit" href="tel:+19524357106">+1 952-435-7106</a>
-                                        <a class="text-inherit" href="mailto:info@kotar.com">info@kotar.com</a></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
 
-    </div>
-    <div class="copyright-wrap text-center">
-        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a href="home-company.html">Industrial Electrical</a>. All Rights Reserved.</p>
-    </div>
-</footer>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright-wrap text-center">
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2025 <a
+                    href="home-company.html">Industrial Electrical</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
 
     <!--********************************
 			Code End  Here 
@@ -404,7 +432,8 @@ Contact Area
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg>
     </div>
