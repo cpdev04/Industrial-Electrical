@@ -20307,7 +20307,8 @@ span.select2-selection.select2-selection--single:focus {
   color: var(--theme-color);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #888C97;
+  /* -webkit-text-stroke-color: #888C97; */
+  -webkit-text-stroke-color: #010612;
 }
 
 .marquee-wrapper .marquee .marquee-group .text img {
